@@ -8,7 +8,6 @@ __pycache__/
 
 # Node.js/React-related files
 node_modules/
-frontend/srtf-frontend/build/
 *.log
 npm-debug.log*
 
