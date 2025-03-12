@@ -1,0 +1,16 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Python-related files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node.js/React-related files
+node_modules/
+frontend/srtf-frontend/build/
+*.log
+npm-debug.log*
+
+# Miscellaneous
+*.swp
