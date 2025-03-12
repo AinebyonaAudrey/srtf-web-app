@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify, send_from_directory
 import copy
 from flask_cors import CORS
 
-app = Flask(__name__, static_folder='../build', static_url_path='/')
+app = Flask(__name__, static_folder='../frontend/srtf-frontend/build', static_url_path='/')
 CORS(app)
 
 def srtf_scheduling(processes):
